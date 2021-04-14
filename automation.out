@@ -1,0 +1,14 @@
+2021-04-15 00:04:912 INFO  TestBase:125 - Initialize Web driver: 1279740095
+2021-04-15 00:04:915 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 00:04:918 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 00:04:926 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 00:04:930 INFO  WaitHelper:146 - page is loaded
+2021-04-15 00:04:59 INFO  TestBase:66 - **************loginWithValidCredentialsStarted***************
+2021-04-15 00:04:62 INFO  TestBase:84 - **************loginWithValidCredentialsFinished***************
+2021-04-15 00:04:927 INFO  TestBase:125 - Initialize Web driver: 1317375498
+2021-04-15 00:04:930 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 00:04:932 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 00:04:939 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 00:04:943 INFO  WaitHelper:146 - page is loaded
+2021-04-15 00:04:78 INFO  TestBase:66 - **************loginWithValidCredentialsStarted***************
+2021-04-15 00:04:81 INFO  TestBase:84 - **************loginWithValidCredentialsFinished***************
