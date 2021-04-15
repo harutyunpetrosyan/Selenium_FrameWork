@@ -1,6 +1,5 @@
 package helper.browserConfiguration.config;
 
-import helper.browserConfiguration.BrowserType;
 import helper.resource.ResourceHelper;
 
 import java.io.File;
@@ -23,11 +22,6 @@ public class PropertyReader  {
 			file = new FileInputStream(new File(filePath));
 			OR = new Properties();
 			OR.load(file);
-			
-			String filePath1 = ResourceHelper.getResourcePath("src/main/resources/configfile/config1.properties");
-			file = new FileInputStream(new File(filePath1));
-			OR = new Properties();
-			OR.load(file);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -45,8 +39,11 @@ public class PropertyReader  {
 		return Integer.parseInt(OR.getProperty("pageloadtime"));
 	}
 
-	public BrowserType getBrowserType() {
-		return BrowserType.valueOf(OR.getProperty("browserType"));
+	public String getBrowserType() {
+		if(System.getProperty("browserType")!=null){
+			return System.getProperty("browserType");
+		}
+		return (OR.getProperty("browserType"));
 	}
 
 	public String getUrl() {

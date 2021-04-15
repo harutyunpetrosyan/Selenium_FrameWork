@@ -4,11 +4,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import helper.resource.ResourceHelper;
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
+
 public class LoggerHelper {
 
 	private static boolean root=false;
@@ -21,12 +17,5 @@ public class LoggerHelper {
 		root = true;
 		return Logger.getLogger(cls);
 	}
-	
-	public static void main(String[] args) {
-		Logger log = LoggerHelper.getLogger(LoggerHelper.class);
-		log.info("logger is configured");
-		log.info("logger is configured");
-		log.info("logger is configured");
-		
-	}
+
 }

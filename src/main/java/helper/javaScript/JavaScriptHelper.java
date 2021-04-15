@@ -102,11 +102,11 @@ public class JavaScriptHelper {
 	 * @param pixel
 	 */
 	public void scrollDownByPixel(int pixel){
-		executeScript("window.scrollBY(0,"+pixel+")");
+		executeScript("window.scrollBy(0,"+pixel+")");
 	}
 	
 	public void scrollUpByPixel(int pixel){
-		executeScript("window.scrollBY(0,-"+pixel+")");
+		executeScript("window.scrollBy(0,-"+pixel+")");
 	}
 	
 	/**

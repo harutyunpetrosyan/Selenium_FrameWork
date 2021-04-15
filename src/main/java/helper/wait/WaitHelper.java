@@ -141,7 +141,7 @@ public class WaitHelper {
 	}
 	
 	public void pageLoadTime(long timeout, TimeUnit unit){
-		log.info("waiting for page to load for : "+ unit+ " seconds");
+		log.info("waiting for page to load for : "+ timeout+ " seconds");
 		driver.manage().timeouts().pageLoadTimeout(timeout, unit);
 		log.info("page is loaded");
 	}
@@ -157,6 +157,12 @@ public class WaitHelper {
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		log.info("element is visible now");
+	}
+
+	public void waitThread(long timeout){
+		try {
+			Thread.sleep(timeout);
+		}catch (Exception e){}
 	}
 
 }

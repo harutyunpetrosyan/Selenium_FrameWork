@@ -16,13 +16,7 @@ public class WindowHelper {
 		this.driver = driver;
 	}
 
-	/**
-	 * This method will switch to parent window
-	 */
-	public void switchToParentWindow() {
-		log.info("switching to parent window...");
-		driver.switchTo().defaultContent();
-	}
+
 
 	/**
 	 * This method will switch to child window based on index

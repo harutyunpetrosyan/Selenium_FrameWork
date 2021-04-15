@@ -12,3 +12,696 @@
 2021-04-15 00:04:943 INFO  WaitHelper:146 - page is loaded
 2021-04-15 00:04:78 INFO  TestBase:66 - **************loginWithValidCredentialsStarted***************
 2021-04-15 00:04:81 INFO  TestBase:84 - **************loginWithValidCredentialsFinished***************
+2021-04-15 18:04:55 INFO  TestBase:124 - Initialize Web driver: 1943855334
+2021-04-15 18:04:58 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:59 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 18:04:65 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 18:04:69 INFO  WaitHelper:146 - page is loaded
+2021-04-15 18:04:201 INFO  TestBase:65 - **************loginWithValidCredentialsStarted***************
+2021-04-15 18:04:204 INFO  TestBase:83 - **************loginWithValidCredentialsFinished***************
+2021-04-15 18:04:358 INFO  TestBase:124 - Initialize Web driver: 2075568954
+2021-04-15 18:04:360 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:362 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 18:04:368 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 18:04:371 INFO  WaitHelper:146 - page is loaded
+2021-04-15 18:04:512 INFO  TestBase:65 - **************loginWithValidCredentialsStarted***************
+2021-04-15 18:04:515 INFO  TestBase:83 - **************loginWithValidCredentialsFinished***************
+2021-04-15 18:04:220 INFO  TestBase:126 - Initialize Web driver: 1279740095
+2021-04-15 18:04:222 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:225 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 18:04:230 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:231 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 18:04:234 INFO  WaitHelper:146 - page is loaded
+2021-04-15 18:04:235 INFO  TestBase:129 - setImplicitWait and pageLoadTime: 1279740095
+2021-04-15 18:04:365 INFO  TestBase:67 - **************isPresentLoginFormStarted***************
+2021-04-15 18:04:676 INFO  TestBase:85 - **************isPresentLoginFormFinished***************
+2021-04-15 18:04:972 INFO  TestBase:126 - Initialize Web driver: 1123236701
+2021-04-15 18:04:974 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:976 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 18:04:983 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:985 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 18:04:990 INFO  WaitHelper:146 - page is loaded
+2021-04-15 18:04:990 INFO  TestBase:129 - setImplicitWait and pageLoadTime: 1123236701
+2021-04-15 18:04:128 INFO  TestBase:67 - **************isPresentLoginFormStarted***************
+2021-04-15 18:04:430 INFO  TestBase:85 - **************isPresentLoginFormFinished***************
+2021-04-15 18:04:699 INFO  TestBase:135 - Initialize Web driver: 998242313
+2021-04-15 18:04:702 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:703 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 18:04:711 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 18:04:712 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 18:04:716 INFO  WaitHelper:146 - page is loaded
+2021-04-15 18:04:716 INFO  TestBase:138 - setImplicitWait and pageLoadTime: 998242313
+2021-04-15 18:04:854 INFO  TestBase:72 - **************isPresentLoginFormStarted***************
+2021-04-15 18:04:145 INFO  TestBase:90 - **************isPresentLoginFormFinished***************
+2021-04-15 19:04:491 INFO  ExtentListener:30 - SeleniumFramework Class Started..
+2021-04-15 19:04:872 INFO  TestBase:135 - Initialize Web driver: 864221358
+2021-04-15 19:04:873 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:876 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:881 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:882 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 19:04:886 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:886 INFO  TestBase:138 - setImplicitWait and pageLoadTime: 864221358
+2021-04-15 19:04:21 INFO  TestBase:72 - **************isPresentLoginFormStarted***************
+2021-04-15 19:04:22 INFO  ExtentListener:53 - isPresentLoginForm Test Started..
+2021-04-15 19:04:23 ERROR ExtentListener:41 - isPresentLoginForm Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2021-04-15 19:04:313 INFO  TestBase:90 - **************isPresentLoginFormFinished***************
+2021-04-15 19:04:84 INFO  ExtentListener:22 - SeleniumFramework Test Finished..
+2021-04-15 19:04:895 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 19:04:234 INFO  TestBase:135 - Initialize Web driver: 482307698
+2021-04-15 19:04:235 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:237 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:243 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:244 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 19:04:248 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:248 INFO  TestBase:138 - setImplicitWait and pageLoadTime: 482307698
+2021-04-15 19:04:380 INFO  TestBase:72 - **************isPresentLoginFormStarted***************
+2021-04-15 19:04:381 INFO  ExtentListener:42 - isPresentLoginForm Test Started..
+2021-04-15 19:04:382 ERROR ExtentListener:34 - isPresentLoginForm Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2021-04-15 19:04:682 INFO  TestBase:90 - **************isPresentLoginFormFinished***************
+2021-04-15 19:04:462 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 19:04:36 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 19:04:446 INFO  TestBase:92 - Initialize Web driver: 781091365
+2021-04-15 19:04:447 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:449 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:455 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:456 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 19:04:460 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:460 INFO  TestBase:95 - setImplicitWait and pageLoadTime: 781091365
+2021-04-15 19:04:589 INFO  ExtentListener:42 - isPresentLoginForm Test Started..
+2021-04-15 19:04:590 ERROR ExtentListener:34 - isPresentLoginForm Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2021-04-15 19:04:193 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 19:04:377 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 19:04:785 INFO  TestBase:93 - Initialize Web driver: 967323951
+2021-04-15 19:04:787 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:789 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:794 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2021-04-15 19:04:798 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:799 INFO  TestBase:97 - Set ImplicitWait and pageLoadTime: 967323951
+2021-04-15 19:04:928 INFO  ExtentListener:42 - isPresentLoginForm Test Started..
+2021-04-15 19:04:929 ERROR ExtentListener:34 - isPresentLoginForm Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2021-04-15 19:04:544 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 19:04:25 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 19:04:430 INFO  TestBase:93 - Initialize Web driver: 743648472
+2021-04-15 19:04:431 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:433 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:438 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 19:04:442 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:442 INFO  TestBase:97 - Set ImplicitWait and pageLoadTime: 743648472
+2021-04-15 19:04:567 INFO  ExtentListener:42 - isPresentLoginForm Test Started..
+2021-04-15 19:04:569 ERROR ExtentListener:34 - isPresentLoginForm Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2021-04-15 19:04:188 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 19:04:287 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 19:04:723 INFO  LoginPageTest:84 - Initialize Web driver: 20156341
+2021-04-15 19:04:725 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 19:04:727 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 19:04:732 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 19:04:736 INFO  WaitHelper:146 - page is loaded
+2021-04-15 19:04:736 INFO  LoginPageTest:88 - Set ImplicitWait and pageLoadTime: 20156341
+2021-04-15 19:04:869 INFO  ExtentListener:41 - isPresentLoginForm Test Started..
+2021-04-15 19:04:873 INFO  ExtentListener:45 - isPresentLoginForm Test Passed..
+2021-04-15 19:04:511 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:389 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:772 INFO  LoginPageTest:84 - Initialize Web driver: 1740826931
+2021-04-15 20:04:773 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:775 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:781 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:784 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:784 INFO  LoginPageTest:88 - Set ImplicitWait and pageLoadTime: 1740826931
+2021-04-15 20:04:912 INFO  ExtentListener:41 - isPresentLoginForm Test Started..
+2021-04-15 20:04:234 INFO  LoginPageTest:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:243 INFO  ExtentListener:45 - isPresentLoginForm Test Passed..
+2021-04-15 20:04:867 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:680 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:98 INFO  TestBase:84 - Initialize Web driver: 692998280
+2021-04-15 20:04:99 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:100 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:106 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:109 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:109 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 692998280
+2021-04-15 20:04:241 INFO  ExtentListener:41 - isPresentLoginForm Test Started..
+2021-04-15 20:04:470 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:472 INFO  ExtentListener:45 - isPresentLoginForm Test Passed..
+2021-04-15 20:04:87 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:745 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:188 INFO  TestBase:84 - Initialize Web driver: 1221981006
+2021-04-15 20:04:190 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:191 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:197 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:200 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:201 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 1221981006
+2021-04-15 20:04:331 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:332 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:334 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:749 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:753 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:755 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException
+2021-04-15 20:04:393 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:903 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:319 INFO  TestBase:84 - Initialize Web driver: 1799230133
+2021-04-15 20:04:320 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:322 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:327 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:330 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:331 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 1799230133
+2021-04-15 20:04:140 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:142 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:143 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:144 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:150 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:152 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException
+2021-04-15 20:04:832 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:685 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:73 INFO  TestBase:84 - Initialize Web driver: 1111897955
+2021-04-15 20:04:74 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:77 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:82 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:86 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:87 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 1111897955
+2021-04-15 20:04:733 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:735 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:735 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:736 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:741 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:743 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException
+2021-04-15 20:04:365 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:661 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:71 INFO  TestBase:84 - Initialize Web driver: 1111897955
+2021-04-15 20:04:72 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:74 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:80 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:83 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:84 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 1111897955
+2021-04-15 20:04:203 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:205 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:205 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:207 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:214 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:214 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:843 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:611 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:995 INFO  TestBase:84 - Initialize Web driver: 460741164
+2021-04-15 20:04:996 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:997 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:03 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:07 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:07 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 460741164
+2021-04-15 20:04:158 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:160 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:161 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:162 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:168 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:169 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2021-04-15 20:04:777 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:169 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:593 INFO  TestBase:84 - Initialize Web driver: 20156341
+2021-04-15 20:04:594 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:595 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:601 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:604 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:605 INFO  TestBase:88 - Set ImplicitWait and pageLoadTime: 20156341
+2021-04-15 20:04:961 INFO  TestBase:94 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:976 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:976 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:976 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:984 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:985 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "Object.toString()" because "webElement" is null
+2021-04-15 20:04:620 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:185 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:594 INFO  TestBase:83 - Initialize Web driver: 20156341
+2021-04-15 20:04:594 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:597 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:602 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:605 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:605 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 20156341
+2021-04-15 20:04:81 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:96 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:97 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:97 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:102 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:372 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:03 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:298 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:710 INFO  TestBase:82 - Initialize Web driver: 1816522350
+2021-04-15 20:04:711 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:713 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:717 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:721 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:721 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1816522350
+2021-04-15 20:04:827 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:838 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:838 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:839 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:847 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:978 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:628 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:544 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:955 INFO  TestBase:82 - Initialize Web driver: 1740826931
+2021-04-15 20:04:956 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:958 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:963 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:966 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:966 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1740826931
+2021-04-15 20:04:475 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:477 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:478 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:479 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:486 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:487 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2021-04-15 20:04:104 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:143 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:555 INFO  TestBase:82 - Initialize Web driver: 1687354037
+2021-04-15 20:04:556 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:558 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:563 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:566 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:567 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1687354037
+2021-04-15 20:04:800 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:815 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:816 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:816 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:821 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:907 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:544 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:372 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:796 INFO  TestBase:82 - Initialize Web driver: 922807452
+2021-04-15 20:04:797 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:799 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:805 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:808 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:808 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 922807452
+2021-04-15 20:04:935 INFO  EventHandler:124 - Just before beforeNavigateTo https://jqueryui.com/
+2021-04-15 20:04:934 INFO  EventHandler:54 - Inside the afterNavigateTo to https://jqueryui.com/
+2021-04-15 20:04:934 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:949 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:950 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:950 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:956 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:957 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "Object.toString()" because "arg1" is null
+2021-04-15 20:04:588 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:236 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:664 INFO  TestBase:82 - Initialize Web driver: 460741164
+2021-04-15 20:04:665 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:667 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:672 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:675 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:676 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 460741164
+2021-04-15 20:04:804 INFO  EventHandler:119 - Just before beforeNavigateTo https://jqueryui.com/
+2021-04-15 20:04:308 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:325 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:326 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:326 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:332 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:333 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "Object.toString()" because "arg1" is null
+2021-04-15 20:04:130 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:532 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:905 INFO  TestBase:82 - Initialize Web driver: 1858015030
+2021-04-15 20:04:906 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:909 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:914 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:917 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:918 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1858015030
+2021-04-15 20:04:354 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:371 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:371 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:371 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:377 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:378 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "Object.toString()" because "webElement" is null
+2021-04-15 20:04:01 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:912 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:286 INFO  TestBase:82 - Initialize Web driver: 967323951
+2021-04-15 20:04:287 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:289 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:294 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:298 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:298 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 967323951
+2021-04-15 20:04:584 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:595 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:595 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:596 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:604 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:605 INFO  EventHandler:77 - Just before finding element By.cssSelector: a[title="Support the JS Foundation"] img
+2021-04-15 20:04:753 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:407 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:84 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:473 INFO  TestBase:83 - Initialize Web driver: 1858015030
+2021-04-15 20:04:474 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:476 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:481 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:484 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:484 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 1858015030
+2021-04-15 20:04:99 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:116 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:116 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:116 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:122 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:122 INFO  EventHandler:77 - Just before finding element By.cssSelector: a[title="Support the JS Foundation"] img
+2021-04-15 20:04:141 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:765 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:940 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:354 INFO  TestBase:83 - Initialize Web driver: 25764044
+2021-04-15 20:04:355 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:357 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:362 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:365 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:365 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 25764044
+2021-04-15 20:04:716 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:729 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:730 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:730 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:734 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:735 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..java.lang.NullPointerException: Cannot invoke "Object.toString()" because "webElement" is null
+2021-04-15 20:04:350 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 20:04:13 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 20:04:454 INFO  TestBase:83 - Initialize Web driver: 1740826931
+2021-04-15 20:04:455 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:456 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 20:04:462 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 20:04:465 INFO  WaitHelper:146 - page is loaded
+2021-04-15 20:04:466 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 1740826931
+2021-04-15 20:04:635 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 20:04:650 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 20:04:651 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 20:04:651 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 20:04:657 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 20:04:657 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 20:04:552 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 20:04:241 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:775 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:209 INFO  TestBase:83 - Initialize Web driver: 1631227617
+2021-04-15 21:04:210 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:213 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:218 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:221 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:221 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 1631227617
+2021-04-15 21:04:209 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:223 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:224 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:224 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:229 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:229 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:362 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:00 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:255 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:645 INFO  TestBase:83 - Initialize Web driver: 692998280
+2021-04-15 21:04:646 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:648 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:654 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:657 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:657 INFO  TestBase:87 - Set ImplicitWait and pageLoadTime: 692998280
+2021-04-15 21:04:357 INFO  TestBase:93 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:373 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:374 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:374 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:379 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:379 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:45 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:700 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:872 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:288 INFO  TestBase:82 - Initialize Web driver: 1925352804
+2021-04-15 21:04:289 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:291 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:296 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:299 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:300 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1925352804
+2021-04-15 21:04:887 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:904 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:904 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:905 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:911 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:911 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:979 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:610 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:677 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:76 INFO  TestBase:82 - Initialize Web driver: 671596011
+2021-04-15 21:04:77 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:78 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:83 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:87 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:87 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 671596011
+2021-04-15 21:04:627 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:639 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:639 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:640 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:650 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:650 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:254 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:883 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:846 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:374 INFO  TestBase:82 - Initialize Web driver: 1740826931
+2021-04-15 21:04:375 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:378 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:385 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:389 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:389 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1740826931
+2021-04-15 21:04:702 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:718 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:718 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:719 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:724 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:735 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:358 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:615 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:51 INFO  TestBase:82 - Initialize Web driver: 1643141512
+2021-04-15 21:04:53 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:56 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:61 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:65 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:65 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1643141512
+2021-04-15 21:04:428 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:444 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:444 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:444 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:450 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:458 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:17 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:482 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:998 INFO  TestBase:82 - Initialize Web driver: 1257299717
+2021-04-15 21:04:999 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:01 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:06 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:10 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:11 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1257299717
+2021-04-15 21:04:426 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:443 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:443 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:443 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:449 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:449 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:830 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:458 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:510 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:896 INFO  TestBase:82 - Initialize Web driver: 1740826931
+2021-04-15 21:04:897 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:899 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:904 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:907 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:907 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1740826931
+2021-04-15 21:04:158 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:172 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:172 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:173 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:178 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:178 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:388 INFO  EventHandler:77 - Just before finding element null
+2021-04-15 21:04:218 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:603 INFO  TestBase:82 - Initialize Web driver: 1896074070
+2021-04-15 21:04:604 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:606 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:615 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:619 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:620 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1896074070
+2021-04-15 21:04:119 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:135 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:136 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:136 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:141 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:142 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:156 INFO  EventHandler:88 - Just before finding element [[ChromeDriver: chrome on WINDOWS (b89af8f90db0e9c5a95eece48d8d5977)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:82 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.JavascriptException: javascript error: window.scrollBY is not a function
+  (Session info: chrome=89.0.4389.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HARUTY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b89af8f90db0e9c5a95eece48d8d5977
+2021-04-15 21:04:748 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:987 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:557 INFO  TestBase:82 - Initialize Web driver: 1521238608
+2021-04-15 21:04:558 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:560 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:567 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:570 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:571 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1521238608
+2021-04-15 21:04:00 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:15 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:15 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:16 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:22 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:22 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:188 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (1b301bc9a118c8d2dde9cfee8c795898)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:211 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:121 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: EventFiringWebDriver
+2021-04-15 21:04:695 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:882 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:263 INFO  TestBase:82 - Initialize Web driver: 69062746
+2021-04-15 21:04:264 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:266 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:272 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:275 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:275 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 69062746
+2021-04-15 21:04:651 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:665 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:666 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:666 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:676 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:677 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:845 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (ee1fec239b760c61ac36e1f8c3f5e0c4)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:865 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:135 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: EventFiringWebDriver
+2021-04-15 21:04:705 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:883 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:265 INFO  TestBase:82 - Initialize Web driver: 1521238608
+2021-04-15 21:04:266 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:268 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:273 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:276 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:277 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1521238608
+2021-04-15 21:04:56 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:66 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:66 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:67 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:76 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:76 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:453 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (aaa430652623edaf3cf26abce3510b28)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:471 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:910 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: EventFiringWebDriver
+2021-04-15 21:04:479 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:761 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:220 INFO  TestBase:82 - Initialize Web driver: 1896074070
+2021-04-15 21:04:221 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:223 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:228 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:231 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:232 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 1896074070
+2021-04-15 21:04:424 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:439 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:440 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:440 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:446 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:446 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:358 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (43f71212730359717d47346543ed1c45)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:375 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:417 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: EventFiringWebDriver
+2021-04-15 21:04:58 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:255 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:661 INFO  TestBase:82 - Initialize Web driver: 743778731
+2021-04-15 21:04:662 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:664 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:669 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:672 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:673 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 743778731
+2021-04-15 21:04:214 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:227 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:227 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:228 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:237 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:238 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:320 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (0347b691e7c2e4076ed66f591acf7f18)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:329 INFO  EventHandler:77 - Just before finding element By.cssSelector: iframe[class="demo-frame"]
+2021-04-15 21:04:356 INFO  EventHandler:77 - Just before finding element By.cssSelector: iframe[class="demo-frame"]
+2021-04-15 21:04:414 INFO  FrameHelper:50 - switched to frame Proxy element for: DefaultElementLocator 'By.cssSelector: iframe[class="demo-frame"]'
+2021-04-15 21:04:417 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:846 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:499 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:139 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:573 INFO  TestBase:82 - Initialize Web driver: 743778731
+2021-04-15 21:04:574 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:576 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:582 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:585 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:586 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 743778731
+2021-04-15 21:04:902 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:919 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:919 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:919 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:926 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:926 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:101 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (8842a4ebe82cf5216ca8910940921351)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:108 INFO  EventHandler:77 - Just before finding element By.cssSelector: iframe[class="demo-frame"]
+2021-04-15 21:04:134 INFO  EventHandler:77 - Just before finding element By.cssSelector: iframe[class="demo-frame"]
+2021-04-15 21:04:173 INFO  FrameHelper:50 - switched to frame Proxy element for: DefaultElementLocator 'By.cssSelector: iframe[class="demo-frame"]'
+2021-04-15 21:04:176 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 21:04:591 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 21:04:239 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 21:04:842 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 21:04:245 INFO  TestBase:82 - Initialize Web driver: 25764044
+2021-04-15 21:04:246 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:248 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 21:04:254 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 21:04:257 INFO  WaitHelper:146 - page is loaded
+2021-04-15 21:04:257 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 25764044
+2021-04-15 21:04:592 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 21:04:605 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 21:04:605 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 21:04:606 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 21:04:615 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 21:04:615 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 21:04:880 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (882ca25642845be572a0065c19d0b7f6)] -> xpath: //a[text()='Draggable']]
+2021-04-15 21:04:888 INFO  EventHandler:77 - Just before finding element By.cssSelector: div[id="content"] iframe
+2021-04-15 21:04:912 INFO  EventHandler:77 - Just before finding element By.cssSelector: div[id="content"] iframe
+2021-04-15 22:04:966 INFO  FrameHelper:50 - switched to frame Proxy element for: DefaultElementLocator 'By.cssSelector: div[id="content"] iframe'
+2021-04-15 22:04:969 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 22:04:428 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 22:04:991 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 22:04:775 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 22:04:178 INFO  TestBase:82 - Initialize Web driver: 264394929
+2021-04-15 22:04:179 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 22:04:181 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 22:04:187 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 22:04:191 INFO  WaitHelper:146 - page is loaded
+2021-04-15 22:04:191 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 264394929
+2021-04-15 22:04:588 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 22:04:605 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 22:04:606 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 22:04:606 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 22:04:611 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 22:04:611 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 22:04:513 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (85ebc1446b9bc24bc45a13a224bcb70d)] -> xpath: //a[text()='Draggable']]
+2021-04-15 22:04:535 ERROR ExtentListener:33 - defaultFunctionalityTest Test Failed..org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=89.0.4389.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EP-5CG03996WP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HARUTY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85ebc1446b9bc24bc45a13a224bcb70d
+2021-04-15 22:04:174 INFO  ExtentListener:20 - SeleniumFramework Test Finished..
+2021-04-15 22:04:129 INFO  ExtentListener:24 - SeleniumFramework Class Started..
+2021-04-15 22:04:577 INFO  TestBase:82 - Initialize Web driver: 769132147
+2021-04-15 22:04:578 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 22:04:580 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2021-04-15 22:04:585 INFO  WaitHelper:144 - waiting for page to load for : 100 seconds
+2021-04-15 22:04:588 INFO  WaitHelper:146 - page is loaded
+2021-04-15 22:04:589 INFO  TestBase:86 - Set ImplicitWait and pageLoadTime: 769132147
+2021-04-15 22:04:808 INFO  TestBase:92 - navigating to ...https://jqueryui.com/
+2021-04-15 22:04:822 INFO  WaitHelper:31 - WaitHelper object created..
+2021-04-15 22:04:822 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2021-04-15 22:04:823 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2021-04-15 22:04:832 INFO  ExtentListener:41 - defaultFunctionalityTest Test Started..
+2021-04-15 22:04:833 INFO  EventHandler:77 - Just before finding element By.xpath: //a[text()='Draggable']
+2021-04-15 22:04:116 INFO  EventHandler:94 - Just after click element [[ChromeDriver: chrome on WINDOWS (e3393758477ab5ab0c7574cdc98d002f)] -> xpath: //a[text()='Draggable']]
+2021-04-15 22:04:133 INFO  FrameHelper:24 - switched to :0 frame
+2021-04-15 22:04:136 INFO  EventHandler:77 - Just before finding element By.id: draggable
+2021-04-15 22:04:578 INFO  ExtentListener:45 - defaultFunctionalityTest Test Passed..
+2021-04-15 22:04:201 INFO  ExtentListener:20 - SeleniumFramework Test Finished..

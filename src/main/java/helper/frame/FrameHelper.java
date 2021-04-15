@@ -23,7 +23,15 @@ public class FrameHelper {
 		driver.switchTo().frame(frameIndex);
 		log.info("switched to :"+ frameIndex+" frame");
 	}
-	
+
+	public void switchToDefaultContent() {
+		log.info("switching to Default Content...");
+		driver.switchTo().defaultContent();
+	}
+	public void switchToParentFrame() {
+		log.info("switching to  Parent Frame...");
+		driver.switchTo().parentFrame();
+	}
 	/**
 	 * this method will switchToFrame based on frame name
 	 * @param frameName
