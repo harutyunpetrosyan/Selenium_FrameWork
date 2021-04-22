@@ -9,11 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import helper.resource.ResourceHelper;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
+
 public class ChromeBrowser {
 
 	public ChromeOptions getChromeOptions() {

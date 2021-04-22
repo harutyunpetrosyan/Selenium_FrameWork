@@ -5,11 +5,7 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
 import helper.logger.LoggerHelper;
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
+
 public class Retry implements IRetryAnalyzer{
 	private int retryCount = 0;
 	private int maxRetryCount = 3;

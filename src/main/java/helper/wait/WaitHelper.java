@@ -161,6 +161,7 @@ public class WaitHelper {
 
 	public void waitThread(long timeout){
 		try {
+			log.info("Thread sleep is processing");
 			Thread.sleep(timeout);
 		}catch (Exception e){}
 	}

@@ -6,11 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import helper.logger.LoggerHelper;
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
+
 public class JavaScriptHelper {
 	
 	private WebDriver driver;
