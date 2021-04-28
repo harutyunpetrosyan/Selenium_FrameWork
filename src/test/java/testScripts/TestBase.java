@@ -32,7 +32,7 @@ public class TestBase {
     public WebDriverEventListener handler;
     public PropertyReader reader;
     public WaitHelper waitHelper;
-    private Logger log = LoggerHelper.getLogger(TestBase.class);
+    private final Logger log = LoggerHelper.getLogger(TestBase.class);
 
     @BeforeTest
     public void beforeTest() throws Exception {
@@ -51,22 +51,20 @@ public class TestBase {
 
         try {
             switch (btype) {
-                case "Chrome":
+                case "Chrome" -> {
                     // get object of ChromeBrowser class
-                    ChromeBrowser chrome = ChromeBrowser.class.newInstance();
-                    ChromeOptions option = chrome.getChromeOptions();
-                    return chrome.getChromeDriver(option);
-                case "Firefox":
-                    FirefoxBrowser firefox = FirefoxBrowser.class.newInstance();
-                    FirefoxOptions options = firefox.getFirefoxOptions();
-                    return firefox.getFirefoxDriver(options);
-
-                case "Iexplorer":
-                    IExploreBrowser ie = IExploreBrowser.class.newInstance();
-                    InternetExplorerOptions cap = ie.getIExplorerCapabilities();
-                    return ie.getIExplorerDriver(cap);
-                default:
-                    throw new Exception("Driver not Found: " + btype);
+                    ChromeOptions option = ChromeBrowser.getChromeOptions();
+                    return ChromeBrowser.getChromeDriver(option);
+                }
+                case "Firefox" -> {
+                    FirefoxOptions options = FirefoxBrowser.getFirefoxOptions();
+                    return FirefoxBrowser.getFirefoxDriver(options);
+                }
+                case "Iexplorer" -> {
+                    InternetExplorerOptions cap = IExploreBrowser.getIExplorerCapabilities();
+                    return IExploreBrowser.getIExplorerDriver(cap);
+                }
+                default -> throw new Exception("Driver not Found: " + btype);
             }
         } catch (Exception e) {
             log.info(e.getMessage());
@@ -84,7 +82,6 @@ public class TestBase {
         waitHelper.setImplicitWait(reader.getImpliciteWait(), TimeUnit.SECONDS);
         waitHelper.pageLoadTime(reader.getPageLoadTime(), TimeUnit.SECONDS);
         log.info("Set ImplicitWait and pageLoadTime: " + driver.hashCode());
-        eventDriver.manage().window().maximize();
     }
 
     public void getApplicationUrl(String url) {

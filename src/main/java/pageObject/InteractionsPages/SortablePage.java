@@ -17,12 +17,27 @@ public class SortablePage extends BasePage {
     WebElement sortable;
     @FindBy(css = "[id*='sortable'] li")
     List<WebElement> sortableElements;
+    @FindBy(css = "iframe[class='demo-frame']")
+    WebElement ourFrame;
 
-    public void defaultFunctionalityTest(){
+    public void defaultFunctionalityTest() {
         sortable.click();
+ //       javaScriptHelper.scrollDownByPixel(150);
+        javaScriptHelper.scrollIntoView(ourFrame);
         frameHelper.switchToFrame(0);
-        actions.dragAndDrop(sortableElements.get(0),sortableElements.get(1));
-        waitHelper.waitThread(5000);
+
+//        System.out.println(sortableElements.size()+"THIS IS SIZE");
+//        actions.moveToElement(sortableElements.get(6)).perform();
+        waitHelper.waitThread(2000);
+        //javaScriptHelper.scrollIntoView(sortableElements.get(0));
+        int j = 0;;
+        for (int i=sortableElements.size()-1;i>sortableElements.size()/2;i--) {
+            actions.dragAndDrop(sortableElements.get(i), sortableElements.get(j)).perform();
+            waitHelper.waitThread(5000);
+            j++;
+        }
+        waitHelper.waitThread(10000);
+
 
     }
 

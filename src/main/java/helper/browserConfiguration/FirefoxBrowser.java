@@ -11,7 +11,7 @@ import helper.resource.ResourceHelper;
 
 public class FirefoxBrowser {
 
-	public FirefoxOptions getFirefoxOptions() {
+	public  static FirefoxOptions getFirefoxOptions() {
 
 		DesiredCapabilities firefox = DesiredCapabilities.firefox();
 
@@ -30,7 +30,7 @@ public class FirefoxBrowser {
 		return firefoxOptions;
 	}
 
-	public WebDriver getFirefoxDriver(FirefoxOptions cap) {
+	public static WebDriver getFirefoxDriver(FirefoxOptions cap) {
 
 		if (System.getProperty("os.name").contains("Mac")) {
 			System.setProperty("webdriver.gecko.driver",ResourceHelper.getResourcePath("src/main/resources/drivers/geckodriver"));

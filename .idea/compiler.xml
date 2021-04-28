@@ -9,5 +9,8 @@
         <module name="SeleniumFramework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumFramework" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

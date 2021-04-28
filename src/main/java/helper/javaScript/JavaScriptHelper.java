@@ -64,7 +64,7 @@ public class JavaScriptHelper {
 	 */
 	public void scrollIntoView(WebElement element){
 		log.info("scroll till web element");
-		executeScript("arguments[0].scrollIntoView()",element);
+		executeScript("arguments[0].scrollIntoView(true)",element);
 	}
 	
 	/**

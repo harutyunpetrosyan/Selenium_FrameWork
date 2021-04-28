@@ -12,7 +12,7 @@ import helper.resource.ResourceHelper;
 
 public class IExploreBrowser {
 	
-	public InternetExplorerOptions getIExplorerCapabilities() {
+	public static InternetExplorerOptions getIExplorerCapabilities() {
 		
 		DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
 		
@@ -27,7 +27,7 @@ public class IExploreBrowser {
 		return internetExplorerOptions;
 	}
 	
-	public WebDriver getIExplorerDriver(InternetExplorerOptions cap) {
+	public static WebDriver getIExplorerDriver(InternetExplorerOptions cap) {
 		System.setProperty("webdriver.ie.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/chromedriver"));
 		return new InternetExplorerDriver(cap);
 	}

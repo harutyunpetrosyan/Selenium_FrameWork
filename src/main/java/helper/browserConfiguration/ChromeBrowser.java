@@ -2,6 +2,7 @@
 package helper.browserConfiguration;
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,12 +13,13 @@ import helper.resource.ResourceHelper;
 
 public class ChromeBrowser {
 
-	public ChromeOptions getChromeOptions() {
+	public static ChromeOptions getChromeOptions() {
 		
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--test-type");
 		option.addArguments("--disable-popup-blocking");
-		
+		option.addArguments("--start-maximized");
+
 		DesiredCapabilities chrome = DesiredCapabilities.chrome();
 		chrome.setJavascriptEnabled(true);
 		
@@ -29,18 +31,18 @@ public class ChromeBrowser {
 		return option;
 	}
 
-	public WebDriver getChromeDriver(ChromeOptions cap) {
+	public static WebDriver getChromeDriver(ChromeOptions cap) {
 
 		if (System.getProperty("os.name").contains("Mac")){
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("src/main/resources/drivers/chromedriver"));
+			WebDriverManager.chromedriver().setup();
 			return new ChromeDriver(cap);
 		}
 		else if(System.getProperty("os.name").contains("Window")){
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("src/main/resources/drivers/chromedriver.exe"));
+			WebDriverManager.chromedriver().setup();
 			return new ChromeDriver(cap);
 		}
 		else if(System.getProperty("os.name").contains("Linux")){
-			System.setProperty("webdriver.chrome.driver", "/usr/bin/chrome");
+			WebDriverManager.chromedriver().setup();
 			return new ChromeDriver(cap);
 		}
 		return null;
