@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a675088-41c8-4fd2-b49d-0efb395d9d63" name="Default Changelist" comment="Draggable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/ShopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testSuite/tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/automation.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/DataProviders/DProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/DataProviders/DProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/ChromeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/config/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/config/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/database/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/database/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/listener/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/listener/Retry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/RetryListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/resource/ResourceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/resource/ResourceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/wait/WaitHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/wait/WaitHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/DraggablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/DroppablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/ResizablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SelectablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SortablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/WodgetsPages/AutocompletePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/extent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/AllTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/Dummy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/regressionSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/DraggableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/DroppableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/ResizableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/SelectableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/SortablePageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScripts/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/WodgetsPagesTest/AutocompleteTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1a675088-41c8-4fd2-b49d-0efb395d9d63" name="Default Changelist" comment="Draggable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
