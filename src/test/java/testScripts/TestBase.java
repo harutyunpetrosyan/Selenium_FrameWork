@@ -11,35 +11,39 @@ import helper.logger.LoggerHelper;
 import helper.resource.ResourceHelper;
 import helper.wait.WaitHelper;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
+import utils.ExtentManager;
 
 import java.util.concurrent.TimeUnit;
 
 /**
  * @author Harut
  */
-@Listeners(ExtentListener.class)
+@Listeners({ExtentListener.class})
+
 public class TestBase {
+    public static ThreadLocal<WebDriver> webDriverThreadLocal=new ThreadLocal<>();
+    private WebDriver driver;
     public EventFiringWebDriver eventDriver;
-    public WebDriverEventListener handler;
-    public PropertyReader reader;
+    public AbstractWebDriverEventListener handler;
     public WaitHelper waitHelper;
     private final Logger log = LoggerHelper.getLogger(TestBase.class);
 
+    //@Parameters({"browserName","OS"})
     @BeforeTest
     public void beforeTest() throws Exception {
-        reader = new PropertyReader();
-        setUpDriver(reader.getBrowserType());
+        setUpDriver("Chrome");
     }
-
     @AfterTest
     public void afterTest() throws Exception {
         if (eventDriver != null) {
@@ -47,22 +51,56 @@ public class TestBase {
         }
     }
 
-    public WebDriver getBrowserObject(String btype) throws Exception {
+    public  void setUpDriver(String btype) throws Exception {
+//        DesiredCapabilities browser = new DesiredCapabilities();
+//        if (btype.equals("firefox")) {
+//            browser = DesiredCapabilities.firefox();
+//        }
+//        else if (btype.equals("chrome")) {
+//            browser = DesiredCapabilities.chrome();
+//        }
+//        if (OS.equals("linux")) {
+//            browser.setPlatform(Platform.LINUX);
+//        }
+//        else if (OS.equals("windows")) {
+//            browser.setPlatform(Platform.WINDOWS);
+//        }
+//        browser.setCapability("enableVNC", false);
+//        String selenoidHub = "http://localhost:4444/wd/hub/";
+//        String seleniumGridHub = "http://10.22.220.177:5555/wd/hub";
+//        eventDriver = new RemoteWebDriver(new URL(selenoidHub), browser);
+//        eventDriver.manage().window().maximize();
+        driver = getBrowserObject(btype);
+        eventDriver = new EventFiringWebDriver(driver);
+        handler = new EventHandler();
+        eventDriver.register(handler);
+        log.info("Initialize Web driver: " + driver.hashCode());
+        waitHelper = new WaitHelper(driver);
+        waitHelper.setImplicitWait(PropertyReader.getImpliciteWait(), TimeUnit.SECONDS);
+        waitHelper.pageLoadTime(PropertyReader.getPageLoadTime(), TimeUnit.SECONDS);
+        ExtentManager.getInstance();
+        log.info("Set ImplicitWait and pageLoadTime: " + driver.hashCode());
 
+    }
+
+    public WebDriver getBrowserObject(String btype) throws Exception {
         try {
             switch (btype) {
                 case "Chrome" -> {
                     // get object of ChromeBrowser class
                     ChromeOptions option = ChromeBrowser.getChromeOptions();
-                    return ChromeBrowser.getChromeDriver(option);
+                    webDriverThreadLocal.set(ChromeBrowser.getChromeDriver(option));
+                    return webDriverThreadLocal.get();
                 }
                 case "Firefox" -> {
                     FirefoxOptions options = FirefoxBrowser.getFirefoxOptions();
-                    return FirefoxBrowser.getFirefoxDriver(options);
+                    webDriverThreadLocal.set(FirefoxBrowser.getFirefoxDriver(options));
+                    return webDriverThreadLocal.get();
                 }
                 case "Iexplorer" -> {
                     InternetExplorerOptions cap = IExploreBrowser.getIExplorerCapabilities();
-                    return IExploreBrowser.getIExplorerDriver(cap);
+                    webDriverThreadLocal.set(IExploreBrowser.getIExplorerDriver(cap));
+                    return webDriverThreadLocal.get();
                 }
                 default -> throw new Exception("Driver not Found: " + btype);
             }
@@ -72,21 +110,14 @@ public class TestBase {
         }
     }
 
-    public void setUpDriver(String btype) throws Exception {
-        WebDriver driver = getBrowserObject(btype);
-        eventDriver = new EventFiringWebDriver(driver);
-        handler = new EventHandler();
-        eventDriver.register(handler);
-        log.info("Initialize Web driver: " + driver.hashCode());
-        waitHelper = new WaitHelper(driver);
-        waitHelper.setImplicitWait(reader.getImpliciteWait(), TimeUnit.SECONDS);
-        waitHelper.pageLoadTime(reader.getPageLoadTime(), TimeUnit.SECONDS);
-        log.info("Set ImplicitWait and pageLoadTime: " + driver.hashCode());
-    }
-
     public void getApplicationUrl(String url) {
         eventDriver.get(url);
         log.info("navigating to ..." + url);
+    }
+    public void deleteCookiesAndCaches(){
+        eventDriver.manage().deleteAllCookies();
+        eventDriver.get("chrome://settings/clearBrowserData");
+        eventDriver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
     }
 
     public Object[][] getExcelData(String excelName, String sheetName) {

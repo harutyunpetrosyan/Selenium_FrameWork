@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 
-public class EventHandler implements WebDriverEventListener {
+public class EventHandler extends AbstractWebDriverEventListener {
     private Logger log = LoggerHelper.getLogger(this.getClass());
 
 

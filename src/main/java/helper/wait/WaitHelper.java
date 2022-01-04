@@ -1,6 +1,7 @@
 package helper.wait;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -10,10 +11,7 @@ import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import helper.logger.LoggerHelper;
 /**
@@ -49,7 +47,7 @@ public class WaitHelper {
 	 * @param pollingEveryInMiliSec
 	 * @return
 	 */
-	private WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
+	public WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec));
 		wait.ignoring(NoSuchElementException.class);
@@ -165,5 +163,61 @@ public class WaitHelper {
 			Thread.sleep(timeout);
 		}catch (Exception e){}
 	}
+	/**
+	 * This method will make sure list has given size at given time
+	 *
+	 * @param webElements
+	 * @param expectedSize
+	 * @param timeOutInSeconds
+	 */
+	public void waitForListSize(List<WebElement> webElements,int expectedSize,int timeOutInSeconds) {
+		log.info("waiting for :" + webElements.toString() + " for :" + timeOutInSeconds + " seconds");
+		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		wait.until((ExpectedCondition<Boolean>) driver -> {
+			//identify paragraph
+			if (webElements!= null){
+				//to check if paragraph is displayed and has text India
+				if (webElements.size()==expectedSize) {
+					System.out.println("Elements size is "+expectedSize);
+					return true;
+				}
+				else {
+					System.out.println("Elements size is not "+expectedSize+"we are waiting");
+					return false;
+				}
+			}
+			return false;
+		});
+		log.info("list of web elements is not  visible ");
+	}
+	/**
+	 * This method will make sure list has given index size or more
+	 *
+	 * @param webElements
+	 * @param index
+	 * @param timeOutInSeconds
+	 */
+	public void waitIndexOfList(List<WebElement> webElements, int index, int timeOutInSeconds) {
+		log.info("waiting for :" + webElements.toString() + " for :" + timeOutInSeconds + " seconds");
+		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		wait.until((ExpectedCondition<Boolean>) driver -> {
+			//identify paragraph
+			if (webElements!= null){
+				//to check if paragraph is displayed and has text India
+				if (webElements.size()-1>=index&&webElements.get(index).isDisplayed()) {
+					log.info("element with "+index +" index is Displayed");
+					return true;
+				}
+				else {
+					log.info("element with "+index +" index is not Displayed yet");
+					return false;
+				}
+			}
+			return false;
+		});
+		log.info("element with "+index +" index is not Displayed ");
+	}
+
+
 
 }

@@ -2,7 +2,7 @@ package helper.resource;
 
 /**
  * 
- * @author Bhanu Pratap Singh
+ *
  *
  */
 public class ResourceHelper {

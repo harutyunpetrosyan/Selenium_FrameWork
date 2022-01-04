@@ -19,12 +19,16 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(this.driver,this);
+        PageFactory.initElements(driver,this);
         waitHelper=new WaitHelper(this.driver);
         alertHelper=new AlertHelper(this.driver);
         frameHelper=new FrameHelper(this.driver);
         javaScriptHelper=new JavaScriptHelper(this.driver);
         actions=new Actions(this.driver);
-
     }
+
+
+
+
+
 }

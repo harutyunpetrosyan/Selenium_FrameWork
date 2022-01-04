@@ -7,32 +7,30 @@ import org.testng.ITestResult;
 import helper.logger.LoggerHelper;
 
 public class Retry implements IRetryAnalyzer{
-	private int retryCount = 0;
-	private int maxRetryCount = 3;
-	
 	private Logger log = LoggerHelper.getLogger(Retry.class);
+	int counter = 0;
+	int retryLimit = 4;
+	/*
+	 * (non-Javadoc)
+	 * @see org.testng.IRetryAnalyzer#retry(org.testng.ITestResult)
+	 *
+	 * This method decides how many times a test needs to be rerun.
+	 * TestNg will call this method every time a test fails. So we
+	 * can put some code in here to decide when to rerun the test.
+	 *
+	 * Note: This method will return true if a tests needs to be retried
+	 * and false it not.
+	 *
+	 */
+	@Override
+	public boolean retry(ITestResult result) {
 
-	public boolean retry(ITestResult arg0) {
-		if(retryCount < maxRetryCount){
-			log.info("Retrying test "+arg0.getName()+" with status "+getResultStatusName(arg0.getStatus())+" for the " +(retryCount+1)+" times." );
-			retryCount++;
+		if(counter < retryLimit)
+		{
+			counter++;
 			return true;
 		}
 		return false;
-	}
-	
-	public String getResultStatusName(int status){
-		String resultName = null;
-		if(status == 1){
-			resultName = "SUCCESS";
-		}
-		if(status == 2){
-			resultName = "FAILURE";
-		}
-		if(status == 3){
-			resultName = "SKIP";
-		}
-		return resultName;
 	}
 
 }

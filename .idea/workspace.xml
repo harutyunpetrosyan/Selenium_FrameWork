@@ -5,27 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a675088-41c8-4fd2-b49d-0efb395d9d63" name="Default Changelist" comment="Draggable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/helper/DataProviders/DProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/WodgetsPages/AutocompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/SortablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/WodgetsPagesTest/AutocompleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/ShopPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testSuite/tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/automation.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/DataProviders/DProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/DataProviders/DProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/ChromeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/FirefoxBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/FirefoxBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/IExploreBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/IExploreBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/javaScript/JavaScriptHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/javaScript/JavaScriptHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SortablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SortablePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/reports/extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/config/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/browserConfiguration/config/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/database/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/database/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/listener/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/listener/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/listener/RetryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/resource/ResourceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/resource/ResourceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/wait/WaitHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/wait/WaitHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/DraggablePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/DroppablePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/ResizablePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SelectablePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InteractionsPages/SortablePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/WodgetsPages/AutocompletePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/extent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/AllTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/Dummy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testSuite/regressionSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/DraggableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/DroppableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/ResizableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/SelectableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/InteractionsPagesTests/SortablePageTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScripts/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScripts/WodgetsPagesTest/AutocompleteTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +71,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/helper/browserConfiguration/ChromeBrowser.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/testScripts/TestBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pageObject/BasePage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/testSuite/tests.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/helper/wait/WaitHelper.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1rAwrnfSVpamIu3CU3E9m5EOkYb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,12 +88,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestAssuredTest" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -73,23 +102,30 @@
       <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\src\test" />
       <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SortablePageTest">
-    <configuration name="AutocompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.HomePageTest">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testScripts.WodgetsPagesTest.*" />
+          <option name="PATTERN" value="testScripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testScripts.WodgetsPagesTest" />
-      <option name="MAIN_CLASS_NAME" value="testScripts.WodgetsPagesTest.AutocompleteTest" />
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.HomePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutocompleteTest.defaultFunctionalityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.AddMoreBooksToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testScripts.WodgetsPagesTest.*" />
+          <option name="PATTERN" value="testScripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testScripts.WodgetsPagesTest" />
-      <option name="MAIN_CLASS_NAME" value="testScripts.WodgetsPagesTest.AutocompleteTest" />
-      <option name="METHOD_NAME" value="defaultFunctionalityTest" />
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.HomePageTest" />
+      <option name="METHOD_NAME" value="AddMoreBooksToBasket" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,34 +151,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizableTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.AddToBasketItems" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testScripts.InteractionsPagesTests.*" />
+          <option name="PATTERN" value="testScripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testScripts.InteractionsPagesTests" />
-      <option name="MAIN_CLASS_NAME" value="testScripts.InteractionsPagesTests.ResizableTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.HomePageTest" />
+      <option name="METHOD_NAME" value="AddToBasketItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortablePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.addToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testScripts.InteractionsPagesTests.*" />
+          <option name="PATTERN" value="testScripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testScripts.InteractionsPagesTests" />
-      <option name="MAIN_CLASS_NAME" value="testScripts.InteractionsPagesTests.SortablePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.HomePageTest" />
+      <option name="METHOD_NAME" value="addToBasket" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.checkImagesNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.HomePageTest" />
+      <option name="METHOD_NAME" value="checkImagesNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SortablePageTest" />
-        <item itemvalue="TestNG.AutocompleteTest.defaultFunctionalityTest" />
-        <item itemvalue="TestNG.AutocompleteTest" />
-        <item itemvalue="TestNG.ResizableTest" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.checkImagesNavigation" />
+        <item itemvalue="TestNG.HomePageTest.AddToBasketItems" />
+        <item itemvalue="TestNG.HomePageTest.AddMoreBooksToBasket" />
+        <item itemvalue="TestNG.HomePageTest.addToBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619113225295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Draggable">
+      <created>1619613289272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619613289272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +273,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Draggable" />
     <option name="LAST_COMMIT_MESSAGE" value="Draggable" />
   </component>
